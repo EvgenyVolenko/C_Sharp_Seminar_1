@@ -2,13 +2,14 @@
 string bufn = Console.ReadLine();
 int n = int.Parse(bufn);
 
-count = 1;
+int count = 1;
 
 while (count <= n)
 {
-    if (n % 2 == 0)
+    if (count % 2 == 0)
     {
-        Console.Write("Да. Введенное вами число четное!", n);
+        Console.Write(count);
+        Console.Write(", ");
         count++;
     }
     else count++;
