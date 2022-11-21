@@ -8,11 +8,6 @@ int b = int.Parse(bufb);
 int max = a;
 int min = b;
 
-if (a > b) 
-{
-    max = a;
-    min = b;
-}
 if (a < b) 
 {
     max = b;
