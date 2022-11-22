@@ -10,8 +10,8 @@ int c = Convert.ToInt32(bufc);
 
 int max = a;
 
-if (b > a) max = b;
-if (max < c) max = c;
+if (b > max) max = b;
+if (c > max) max = c;
 
 Console.Write("max = ");
 Console.WriteLine(max);
