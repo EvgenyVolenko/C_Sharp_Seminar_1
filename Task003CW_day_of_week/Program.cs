@@ -4,16 +4,21 @@
 
 //Понравилась идея реализации в формате строк с проверкой
 
-Console.Write("Введите порядковый номер дня недели от 1 до 7: ");
-string nDay = Console.ReadLine();
+string nDay;
 
-do 
+while (true)
 {
-    if (nDay != "1" | nDay != "2" | nDay != "3" | nDay != "4" | nDay != "5" | nDay != "6" | nDay != "7")
+    Console.Write("Введите порядковый номер дня недели от 1 до 7: ");
+    nDay = Console.ReadLine();
+    if (nDay == "1" | nDay == "2" | nDay == "3" | nDay == "4" | nDay == "5" | nDay == "6" | nDay =="7")
+    {
+        break;
+    }
+    else
     {
         Console.WriteLine("Вы ввели не ту цифру или символ");
     }
-} while (false);
+}
 
 if (nDay == "1") Console.Write ("Понедельник");
 if (nDay == "2") Console.Write ("Вторник");
