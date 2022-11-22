@@ -1,6 +1,6 @@
 ﻿Console.Write("Введите число: ");
 string bufa = Console.ReadLine();
-int a = int.Parse(bufa);
+int a = Convert.ToInt32(bufa);
 
 if (a % 2 == 0)
 {
