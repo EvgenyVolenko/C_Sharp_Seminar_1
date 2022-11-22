@@ -4,6 +4,7 @@
 
 //Понравилась идея реализации в формате строк с проверкой
 
+Console.Clear();
 string nDay;
 
 while (true)
